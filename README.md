@@ -46,3 +46,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Appendix
 
 - [How to Deploy React Apps for Free With GitHub Pages](https://dzone.com/articles/how-to-deploy-react-apps-for-free-with-github-page)
+- [Material-UI + TypeScript](https://material-ui.com/guides/typescript/)
