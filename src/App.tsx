@@ -1,11 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import logo from "./logo.svg"
+import "./App.css"
 
-import Box from '@material-ui/core/Box'
-import Button from '@material-ui/core/Button';
+import Box from "@material-ui/core/Box"
+import Button from "@material-ui/core/Button"
 
-function App() {
+function App() : JSX.Element {
   return (
     <div className="App">
       <Box color="text.primary" clone>
@@ -28,7 +28,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
