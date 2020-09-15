@@ -1,18 +1,14 @@
+/* eslint react/no-children-prop: 0 */
 import React from "react"
+import { Switch, Route, Link } from "react-router-dom"
 import logo from "./logo.svg"
 import "./App.css"
 
-import Box from "@material-ui/core/Box"
-import Button from "@material-ui/core/Button"
+import { MyBox } from "./MyBox"
 
-function App() : JSX.Element {
+export function App(): JSX.Element {
   return (
     <div className="App">
-      <Box color="text.primary" clone>
-        <Button variant="contained" color="primary">
-          Primary
-        </Button>
-      </Box>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -27,8 +23,19 @@ function App() : JSX.Element {
           Learn React
         </a>
       </header>
+      <ul>
+        <li><Link to="/">home</Link></li>
+        <li><Link to="/test">test</Link></li>
+        <li><Link to="/default">default</Link></li>
+        <li><Link to="/primary">primary</Link></li>
+        <li><Link to="/secondary">secondary</Link></li>
+      </ul>
+      <Switch>
+        <Route exact path="/" children={<div>home</div>} />
+        <Route path="/test" children={<div>test</div>} />
+        <Route path="/:color" children={<MyBox prefix="test"/>} />
+        <Route children={<div>home</div>} />
+      </Switch>
     </div>
   )
 }
-
-export default App
