@@ -1,0 +1,4 @@
+.disable-default {
+  color: inherit;  /* disable color blue */
+  text-decoration: none;  /* disable underline */
+} 

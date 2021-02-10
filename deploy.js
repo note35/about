@@ -1,9 +1,7 @@
 // deploy.js
 const routes = [
-  "test",
-  "default",
-  "primary",
-  "secondary",
+  "talks",
+  "toys",
 ]
 const fs = require("fs-extra")
 const path = require("path")
