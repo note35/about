@@ -30,13 +30,13 @@ export const AboutLinkItems = [
 export const AboutItems = [
   {
     "name": "Brief Bio",
-    "description": "Thanks for your interest! I’m Kir (a kind of cocktail🍸), a Software Engineer at [Google Japan](https://en.wikipedia.org/wiki/Google). I've worked for [A9 (Amazon Search)](https://en.wikipedia.org/wiki/A9.com), [IBM Security](https://en.wikipedia.org/wiki/IBM), and interned for [Marvell](https://en.wikipedia.org/wiki/Marvell_Technology_Group). Outside of work, I have been a part of the [PyCon Taiwan](https://tw.pycon.org/) organization since 2017 and focusing on both reviewering agenda and giving talks. I have a master’s degree in Computer Science from [NCTU](https://www.nctu.edu.tw/en)."
+    "description": "Thanks for your interest! I’m Kir (a kind of cocktail🍸), a Software Engineer at [Google Japan](https://en.wikipedia.org/wiki/Google). I've worked for [A9 (Amazon Search)](https://en.wikipedia.org/wiki/A9.com), [IBM Security](https://en.wikipedia.org/wiki/IBM), and interned for [Marvell](https://en.wikipedia.org/wiki/Marvell_Technology_Group). Outside of work, I have been a part of the [PyCon Taiwan](https://tw.pycon.org/) organization since 2017 and focusing on both reviewing agenda and giving talks. I have a master’s degree in Computer Science from [NCTU](https://www.nctu.edu.tw/en)."
   }, {
     "name": "Career Focuses",
     "description": "Python, JAMStack, Build System, and Software Development Life Cycle (SDLC)."
   }, {
     "name": "Offline Studies",
-    "description": "C++, Rust, Python Parser (PEP617), and Python Virtual Machine."
+    "description": "Podcast planning, Lilypond, Rust, Python PEG parser (PEP617) and related new syntax, and Python Virtual Machine."
   }, {
     "name": "Followed Tech Podcasts",
     "description": "[Python Bytes](https://pythonbytes.fm/), [The Python Podcast.__init__](https://www.pythonpodcast.com/), [CppCast](https://cppcast.com/), [Acquired](https://www.acquired.fm/), and [LadyBug Podcast](https://www.ladybug.dev/)."
