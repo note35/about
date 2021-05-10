@@ -11,13 +11,13 @@ export function Talks(): JSX.Element {
 
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12} style={{ paddingLeft: 20, paddingRight: 20 }}>
+      <Grid item xs={12}>
         <Typography variant="h4" component="h2">Talks</Typography>
         <Typography variant="body2" component="h2">
           {description}
         </Typography>
       </Grid>
-      <Grid item xs={12} style={{ padding: 20 }}>
+      <Grid item xs={12}>
         <ItemTable
           name="talks table"
           headers={["Year", "Location", "Title", "Links"]}

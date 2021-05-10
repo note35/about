@@ -13,7 +13,7 @@ export function Toys(): JSX.Element {
 
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12} style={{ paddingLeft: 20, paddingRight: 20 }}>
+      <Grid item xs={12}>
         <Typography variant="h4" component="h2">Toys</Typography>
         <Typography variant="body2" component="h2">
           {description}
@@ -21,7 +21,7 @@ export function Toys(): JSX.Element {
           {comments.map((comment, idx) => <Chip key={idx} size="small" label={comment}/>)}
         </Typography>
       </Grid>
-      <Grid item xs={12} style={{ padding: 20 }}>
+      <Grid item xs={12}>
         <ItemTable
           name="toys table"
           headers={["Year", "Reason", "Title", "Links"]}
