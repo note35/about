@@ -2,6 +2,20 @@ import { RowType } from "./ItemTable"
 
 export const TalkItems: Array<RowType> = [
   {
+    "year": "2021",
+    "reason": "EuroPython, PyCon TW",
+    "title": "Learn from LL(1) to PEG parser the hard way",
+    "links": [{
+      "source":  "Youtube",
+      "url": "https://www.youtube.com/watch?v=rlULA4PthKw"
+    }, {
+      "source": "SlideShare",
+      "url": "https://www.slideshare.net/ssuser2cbb78/learn-from-ll1-to-peg-parser-the-hard-way-249883112"
+    }],
+    "tags": [
+      "pep617"
+    ]
+  }, {
     "year": "2020",
     "reason": "PyCon TW/JP",
     "title": "Time travel: Let’s learn from the history of Python packaging!",

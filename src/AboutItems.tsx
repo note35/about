@@ -33,13 +33,13 @@ export const AboutItems = [
     "description": "Thanks for your interest! I’m Kir (a kind of cocktail🍸), a Software Engineer at [Google Japan](https://en.wikipedia.org/wiki/Google). I've worked for [A9 (Amazon Search)](https://en.wikipedia.org/wiki/A9.com), [IBM Security](https://en.wikipedia.org/wiki/IBM), and interned for [Marvell](https://en.wikipedia.org/wiki/Marvell_Technology_Group). Outside of work, I have been a part of the [PyCon Taiwan](https://tw.pycon.org/) organization since 2017 and focusing on both reviewing agenda and giving talks. I have a master’s degree in Computer Science from [NCTU](https://www.nctu.edu.tw/en)."
   }, {
     "name": "Career Focuses",
-    "description": "Python, JAMStack, Build System, and Software Development Life Cycle (SDLC)."
+    "description": "Python, C++, Build System, and Software Development Life Cycle (SDLC)."
   }, {
     "name": "Offline Studies",
-    "description": "Podcast planning, Lilypond, Rust, Python PEG parser (PEP617) and related new syntax, and Python Virtual Machine."
+    "description": "absl::flat_hash_map, History of Python dict and hash, and Python Virtual Machine."
   }, {
-    "name": "Followed Tech Podcasts",
-    "description": "[Python Bytes](https://pythonbytes.fm/), [The Python Podcast.__init__](https://www.pythonpodcast.com/), [CppCast](https://cppcast.com/), [Acquired](https://www.acquired.fm/), and [LadyBug Podcast](https://www.ladybug.dev/)."
+    "name": "Recommended Tech Podcasts",
+    "description": "[PyCast (mandarin only)](https://pycast.firstory.io/), [Python Bytes](https://pythonbytes.fm/), [The Python Podcast.__init__](https://www.pythonpodcast.com/), [CppCast](https://cppcast.com/), [Acquired](https://www.acquired.fm/), and [LadyBug Podcast](https://www.ladybug.dev/)."
   }
 ]
 
