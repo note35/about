@@ -2,6 +2,17 @@ import { RowType } from "./ItemTable"
 
 export const ToyItems: Array<RowType> = [
   {
+    "year": "2022",
+    "reason": "🤓 CPython",
+    "title": "Type Erasure",
+    "links": [{
+      "source": "Github",
+      "url": "https://github.com/note35/TypeErasure-Learning"
+    }],
+    "tags": [
+      "cpython",
+    ]
+  }, {
     "year": "2021",
     "reason": "🤓 PEP 617",
     "title": "Parser for Basic Calculator II",

@@ -10,7 +10,7 @@ export const TalkItems: Array<RowType> = [
       "url": "https://www.youtube.com/watch?v=rlULA4PthKw"
     }, {
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/learn-from-ll1-to-peg-parser-the-hard-way-249883112"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2021-PEG.pdf"
     }],
     "tags": [
       "pep617"
@@ -24,7 +24,7 @@ export const TalkItems: Array<RowType> = [
       "url": "https://www.youtube.com/watch?v=TvFwG2VkpFU"
     }, {
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/time-travel-lets-learn-from-the-history-of-python-packaging-238397814"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2020-packaging.pdf"
     }],
     "tags": [
       "pep241", "pep314", "pep345", "pep566",
@@ -38,7 +38,7 @@ export const TalkItems: Array<RowType> = [
       "url": "https://www.youtube.com/watch?v=M5CGocevX9Q"
     }, {
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/the-strbytes-nightmare-before-python2-eol"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2019-str_bytes.pdf"
     }]
   }, {
     "year": "2019",
@@ -49,7 +49,7 @@ export const TalkItems: Array<RowType> = [
       "url": "https://www.youtube.com/watch?v=BS-HyV3V7GI"
     }, {
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/supportingpython3-in-large-scale-project-174419325"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2019-python3migration.pdf"
     }, {
       "source": "Github",
       "url": "https://github.com/note35/SupportingPython3-notes"
@@ -60,7 +60,7 @@ export const TalkItems: Array<RowType> = [
     "title": "A Python Engineer Under Giant Umbrella",
     "links": [{
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/pycon-tw-2018-a-python-engineer-under-giant-umbrella-python"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2018-work.pdf"
     }]
   }, {
     "year": "2017",
@@ -68,7 +68,7 @@ export const TalkItems: Array<RowType> = [
     "title": "Introduction of CTF and CGC",
     "links": [{
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/introduction-of-ctf-and-cgc"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2017-ctf_cgc.pdf"
     }]
   }, {
     "year": "2017",
@@ -79,7 +79,7 @@ export const TalkItems: Array<RowType> = [
       "url": "https://www.youtube.com/watch?v=5kvgbdC7Bdk",
     }, {
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/pycon-tw-2017-why-do-projects-fail-lets-talk-about-the-story-of-sinonpy"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2017-sinon.pdf"
     }, {
       "source": "Github",
       "url": "https://github.com/note35/sinon"
@@ -90,7 +90,7 @@ export const TalkItems: Array<RowType> = [
     "title": "GCC",
     "links": [{
       "source": "SlideShare",
-      "url": "https://www.slideshare.net/ssuser2cbb78/gcc-37841549"
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2014-GCC.pdf"
     }]
   }
 ]
