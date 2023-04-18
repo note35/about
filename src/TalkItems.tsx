@@ -2,8 +2,30 @@ import { RowType } from "./ItemTable"
 
 export const TalkItems: Array<RowType> = [
   {
+    "year": "2023",
+    "reason": "PyCon US Education Summit",
+    "title": "What a Great Software Engineer Intern Host Looks Like",
+    "links": [{
+      "source": "SlideShare",
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2023-intern_host.pdf"
+    }],
+  }, {
+    "year": "2022",
+    "reason": "PyCon APAC",
+    "title": "Type Erasure in Python",
+    "links": [{
+      "source": "Youtube",
+      "url": "https://www.youtube.com/watch?v=vhwWcPzvRvk"
+    }, {
+      "source": "SlideShare",
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2022-type_erasure.pdf"
+    }],
+    "tags": [
+      "cpython",
+    ]
+  }, {
     "year": "2021",
-    "reason": "EuroPython, PyCon TW",
+    "reason": "EuroPython, PyCon TW/APAC",
     "title": "Learn from LL(1) to PEG parser the hard way",
     "links": [{
       "source":  "Youtube",
