@@ -3,6 +3,17 @@ import { RowType } from "./ItemTable"
 export const TalkItems: Array<RowType> = [
   {
     "year": "2023",
+    "reason": "PyCon TW",
+    "title": "How to Design a Successful (Intern) Project with Apache Beam?",
+    "links": [{
+      "source": "SlideShare",
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2023-apache_beam.pdf"
+    }, {
+      "source": "Code",
+      "url": "https://colab.research.google.com/drive/1KT-0pNQbvxjNoLa1me_09uvQSDDwVz0q?usp=sharing"
+    }]
+  }, {
+    "year": "2023",
     "reason": "PyCon US Education Summit",
     "title": "What a Great Software Engineer Intern Host Looks Like",
     "links": [{

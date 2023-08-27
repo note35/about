@@ -42,7 +42,7 @@ export const AboutItems = [
     "description": "PEG, absl::flat_hash_map, History of Python dict and hash, and Python Virtual Machine."
   }, {
     "name": "Recommended Tech Podcasts",
-    "description": "[PyCast (mandarin only)](https://pycast.firstory.io/), [Python Bytes](https://pythonbytes.fm/), [The Python Podcast.__init__](https://www.pythonpodcast.com/), [CppCast](https://cppcast.com/), [Acquired](https://www.acquired.fm/), and [LadyBug Podcast](https://www.ladybug.dev/)."
+    "description": "[PyCast (mandarin only)](https://pycast.firstory.io/), [Python Bytes](https://pythonbytes.fm/), [The Python Podcast.__init__](https://www.pythonpodcast.com/), [CppCast](https://cppcast.com/), [Acquired](https://www.acquired.fm/)."
   }
 ]
 
