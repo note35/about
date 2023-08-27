@@ -12,6 +12,7 @@ import Chip from "@material-ui/core/Chip"
 import YouTubeIcon from "@material-ui/icons/YouTube"
 import GitHubIcon from "@material-ui/icons/GitHub"
 import DescriptionIcon from "@material-ui/icons/Description"
+import CodeIcon from "@material-ui/icons/Code"
 
 interface LinkType {
   source: string,
@@ -27,9 +28,10 @@ export interface RowType {
 }
 
 const LinkIcon = {
-  "Youtube": <YouTubeIcon />,
+  "Code": <CodeIcon />,
   "Github": <GitHubIcon />,
-  "SlideShare": <DescriptionIcon />
+  "SlideShare": <DescriptionIcon />,
+  "Youtube": <YouTubeIcon />
 }
 
 export type ItemTableProps = {
