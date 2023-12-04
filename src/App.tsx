@@ -30,7 +30,7 @@ export function App(): JSX.Element {
   })
 
   const footer = [
-    "© Kir 2021",
+    "© Kir 2023 (Last updated: 2023 Dec 4th)",
     "The [site](https://github.com/note35/about) is made by [TypeScript](https://www.typescriptlang.org/), [React (CRA)](https://reactjs.org/docs/create-a-new-react-app.html), [Material UI](https://material-ui.com/), and hosted by [Github](https://github.com/)"
   ]
 
