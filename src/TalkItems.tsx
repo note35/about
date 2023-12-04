@@ -6,6 +6,9 @@ export const TalkItems: Array<RowType> = [
     "reason": "PyCon TW",
     "title": "How to Design a Successful (Intern) Project with Apache Beam?",
     "links": [{
+      "source": "Youtube",
+      "url": "https://www.youtube.com/watch?v=ecUVZMFEdQU"
+    }, {
       "source": "SlideShare",
       "url": "https://github.com/note35/about/blob/dev/public/slides/2023-apache_beam.pdf"
     }, {
@@ -105,6 +108,17 @@ export const TalkItems: Array<RowType> = [
     }]
   }, {
     "year": "2017",
+    "reason": "Master Research",
+    "title": "CRAXTriage: A coverage based triage system",
+    "links": [{
+      "source": "SlideShare",
+      "url": "https://ieeexplore.ieee.org/document/8073859/"
+    }],
+    "tags": [
+      "IEEE DSC"
+    ]
+  }, {
+    "year": "2017",
     "reason": "PyCon TW",
     "title": "Why do projects fail? Let's talk about the story of Sinon.PY",
     "links": [{
@@ -117,6 +131,17 @@ export const TalkItems: Array<RowType> = [
       "source": "Github",
       "url": "https://github.com/note35/sinon"
     }]
+  }, {
+    "year": "2015",
+    "reason": "Master Research",
+    "title": "Using code coverage as a triage method",
+    "links": [{
+      "source": "SlideShare",
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2015-master_research.pdf"
+    }, {
+      "source": "Youtube",
+      "url": "https://youtu.be/bKJtygkpJMs"
+    }],
   }, {
     "year": "2014",
     "reason": "Marvell Taiwan",

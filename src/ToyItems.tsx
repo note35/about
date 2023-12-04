@@ -171,14 +171,14 @@ export const ToyItems: Array<RowType> = [
     ]
   }, {
     "year": "2015",
-    "reason": "🤓 Master Degree",
+    "reason": "Security Research",
     "title": "Demo of paper: Software fault localization using DStar (D*)",
     "links": [{
       "source": "SlideShare",
       "url": "https://people.cs.nctu.edu.tw/~wschou/d3js/dataset/loadjson.html"
     }],
     "tags": [
-      "javascript", "d3js"
+      "javascript", "d3js", "code coverage"
     ]
   }
 ]
