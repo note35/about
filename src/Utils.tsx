@@ -74,7 +74,7 @@ export function MD2Html(text: string) {
   return (
     convert(text).map(item => {
       if(isUrlType(item)) {
-        return <Link target="_blank" href={item.url}>{item.text}</Link>
+        return <Link key="item_url" target="_blank" href={item.url}>{item.text}</Link>
       } else {
         return item
       }
