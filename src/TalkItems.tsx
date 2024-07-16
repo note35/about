@@ -2,6 +2,20 @@ import { RowType } from "./ItemTable"
 
 export const TalkItems: Array<RowType> = [
   {
+    "year": "2024",
+    "reason": "EuroPython",
+    "title": "Demystify Python Types for PEP 729",
+    "links": [{
+      "source": "SlideShare",
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2024-type_systems.pdf"
+    }, {
+      "source": "Code",
+      "url": "https://colab.research.google.com/drive/1FVOSKpmbcEtye73u3I751AixmdtwMrQ2"
+    }, {
+      "source": "Code",
+      "url": "https://colab.research.google.com/drive/1CeAyqWqADtrW6ASiDmigUpGwhK0F1Ul2"
+    }]
+  }, {
     "year": "2023",
     "reason": "PyCon TW",
     "title": "How to Design a Successful (Intern) Project with Apache Beam?",

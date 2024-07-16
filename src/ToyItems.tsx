@@ -2,6 +2,17 @@ import { RowType } from "./ItemTable"
 
 export const ToyItems: Array<RowType> = [
   {
+    "year": "2024",
+    "reason": "🤓 PEP 729",
+    "title": "Python type systems comparison + A mini type checker",
+    "links": [{
+      "source": "Github",
+      "url": "https://github.com/note35/TypeSystem-Learning"
+    }],
+    "tags": [
+      "python", "cpython", "pep729",
+    ]
+  }, {
     "year": "2022",
     "reason": "🤓 CPython",
     "title": "Type Erasure",
