@@ -1,6 +1,6 @@
 /* eslint react/no-children-prop: 0 */
 import React from "react"
-import { Switch, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles"
 
 import Typography from "@material-ui/core/Typography"
@@ -30,7 +30,7 @@ export function App(): JSX.Element {
   })
 
   const footer = [
-    "© Kir 2023 (Last updated: 2023 Dec 4th)",
+    "© Kir 2024 (Last updated: 2024 Jul 17th)",
     "The [site](https://github.com/note35/about) is made by [TypeScript](https://www.typescriptlang.org/), [React (CRA)](https://reactjs.org/docs/create-a-new-react-app.html), [Material UI](https://material-ui.com/), and hosted by [Github](https://github.com/)"
   ]
 
@@ -38,13 +38,13 @@ export function App(): JSX.Element {
     <div className="App">
       <ThemeProvider theme={theme}>
         <Navigator />
-        <Switch>
-          <Route exact path="/" children={<About />} />
-          <Route path="/talks" children={<Talks />} />
-          <Route path="/toys" children={<Toys />} />
-          <Route path="/:color" children={<MyBox prefix="test"/>} />
-          <Route children={<div>home</div>} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/talks" element={<Talks />} />
+          <Route path="/toys" element={<Toys />} />
+          <Route path="/:color" element={<MyBox prefix="test"/>} />
+          <Route element={<div>home</div>} />
+        </Routes>
         <Typography variant="body2" component="h2" style={{ color: "grey", paddingTop: 30 }}>
           {footer.map((item, idx) => <div key={idx}>{MD2Html(item)}</div>)}
         </Typography>    

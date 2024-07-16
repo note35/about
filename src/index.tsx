@@ -1,5 +1,5 @@
 import React from "react"
-import ReactDOM from "react-dom"
+import { createRoot } from "react-dom/client"
 import { BrowserRouter as Router } from "react-router-dom"
 
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles"
@@ -14,15 +14,15 @@ const theme = createMuiTheme({
   }
 })
 
-ReactDOM.render(
+const root = createRoot(document.getElementById("root") as HTMLElement)
+root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <Router basename="/about">
         <App />
       </Router>
     </ThemeProvider>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 )
 
 // If you want your app to work offline and load faster, you can change
