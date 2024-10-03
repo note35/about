@@ -36,10 +36,10 @@ export const AboutItems = [
     "description": "Python, JavaScript, C++, Build System, and Software Development Life Cycle, Web Application."
   }, {
     "name": "Offline Studies",
-    "description": "Type theory, Gradual typing, Paxos, a little bit Web3."
+    "description": "Programming Language Design, Import System, a little bit Web3."
   }, {
     "name": "Past Studies",
-    "description": "PEG, absl::flat_hash_map, History of Python dict and hash, and Python Virtual Machine."
+    "description": "Type theory, PEG, absl::flat_hash_map, Python Dict & Hash, and Python VM."
   }, {
     "name": "Recommended Tech Podcasts",
     "description": "[PyCast (mandarin only)](https://pycast.firstory.io/), [core.py](https://podcasts.apple.com/us/podcast/core-py/id1712665877), [Python Bytes](https://pythonbytes.fm/), [The Python Podcast.__init__](https://www.pythonpodcast.com/), [CppCast](https://cppcast.com/), [Acquired](https://www.acquired.fm/)."
