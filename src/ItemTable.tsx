@@ -64,8 +64,8 @@ export function ItemTable({ name, headers, rowItems }: ItemTableProps): JSX.Elem
                 {item.links.map((link, idx) => {
                   return (
                     <Link key={idx} target="_blank" href={link.url}>
-                      { /*
-                        // @ts-ignore */
+                      { 
+                        // @ts-expect-error: eom
                         LinkIcon[link.source]
                       }
                     </Link>

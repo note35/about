@@ -2,6 +2,17 @@ import { RowType } from "./ItemTable"
 
 export const TalkItems: Array<RowType> = [
   {
+    "year": "2025",
+    "reason": "EuroPython",
+    "title": "Beyond the Code: Manipulating Bytecode and Building Community",
+    "links": [{
+      "source": "SlideShare",
+      "url": "https://github.com/note35/about/blob/dev/public/slides/2025-bytecode.pdf"
+    }],
+    "tags": [
+      "pep709",
+    ]
+  }, {
     "year": "2024",
     "reason": "EuroPython, PyCon TW",
     "title": "Demystify Python Types for PEP 729",
@@ -17,7 +28,10 @@ export const TalkItems: Array<RowType> = [
     }, {
       "source": "Code",
       "url": "https://colab.research.google.com/drive/1CeAyqWqADtrW6ASiDmigUpGwhK0F1Ul2"
-    }]
+    }],
+    "tags": [
+      "pep729",
+    ]
   }, {
     "year": "2023",
     "reason": "PyCon TW",
