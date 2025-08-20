@@ -6,19 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kir Chou</title>
     <script type="text/javascript">
-      // Get the current path from the URL
-      var path = window.location.pathname;
-
-      // Check if it's a sub-path and redirect to the root with a query param
-      // The segment(1) will be your repo name, like "toys"
-      var repoName = path.split('/')[1];
-      var redirectUrl = '/' + repoName + '/?path=' + path.substring(1);
-      
-      // Store the redirect URL in session storage
-      sessionStorage.redirect = redirectUrl;
-
-      // Redirect to the base of the repository
-      window.location.href = '/' + repoName;
+      sessionStorage.redirect = location.pathname;
+      location.href = '/' + location.pathname.split('/')[1];
     </script>
   </head>
   <body>
