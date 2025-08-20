@@ -1,48 +1,39 @@
-import React from "react"
-
-import GitHubIcon from "@material-ui/icons/GitHub"
-import TwitterIcon from "@material-ui/icons/Twitter"
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
-import CodeIcon from "@material-ui/icons/Code"
-
 export const Name = "Kir Chou"
 
 export const AboutLinkItems = [
   {
     "name": "Github",
-    "icon": <GitHubIcon />,
     "url": "https://github.com/note35"
   }, {
-    "name": "Twitter",
-    "icon": <TwitterIcon />,
+    "name": "X",
     "url": "https://twitter.com/k1rch0u"
   }, {
     "name": "Linkedin",
-    "icon": <LinkedInIcon />,
     "url": "https://www.linkedin.com/in/kirchou/"
   }, {
-    "name": "StackOverflow",
-    "icon": <CodeIcon />,
-    "url": "https://stackoverflow.com/users/2740386/kir-chou"
+    "name": "Discord",
+    "url": "https://discordapp.com/users/kirchou1337"
   }
 ]
 
 export const AboutItems = [
   {
     "name": "Brief Bio",
-    "description": "Thanks for your interest! I’m Kir (a kind of cocktail🍸), a Software Engineer at [Google Japan](https://en.wikipedia.org/wiki/Google). I've worked for [A9 (Amazon Search)](https://en.wikipedia.org/wiki/A9.com), [IBM Security](https://en.wikipedia.org/wiki/IBM), and interned for [Marvell](https://en.wikipedia.org/wiki/Marvell_Technology_Group). Outside of work, I have been a part of the [PyCon Taiwan](https://tw.pycon.org/) organization since 2017 and focusing on both reviewing agenda and giving talks. I have a master’s degree in Computer Science from [NYCU](https://www.nycu.edu.tw/)."
+    "description": "Thanks for your interest! I'm Kir (a kind of cocktail🍸), a Software Engineer at <a href='https://en.wikipedia.org/wiki/Google' target='_blank' rel='noopener noreferrer'>Google Japan</a>. I've worked for <a href='https://en.wikipedia.org/wiki/A9.com' target='_blank' rel='noopener noreferrer'>A9 (Amazon Search)</a>, <a href='https://en.wikipedia.org/wiki/IBM' target='_blank' rel='noopener noreferrer'>IBM Security</a>, and interned for <a href='https://en.wikipedia.org/wiki/Marvell_Technology_Group' target='_blank' rel='noopener noreferrer'>Marvell</a>. I have a master's degree in Computer Science from <a href='https://www.nycu.edu.tw/' target='_blank' rel='noopener noreferrer'>NYCU</a>."
   }, {
-    "name": "Career Focuses",
-    "description": "Python, JavaScript, C++, Build System, and Software Development Life Cycle, Web Application."
+    "name": "Python Community",
+    "description": "Since 2017, I have been an active organizer for <a href='https://tw.pycon.org/' target='_blank' rel='noopener noreferrer'>PyCon Taiwan</a>, focusing on content creation and management. In this role, I regularly review conference proposals (CFPs) and am a frequent speaker. My involvement expanded to the global Python community in 2018, and I have since attended PyCon US, EuroPython, and PyCon JP. Most recently, I volunteered for EuroPython 2025, serving as both a CFP reviewer and a session chair."
   }, {
-    "name": "Offline Studies",
-    "description": "Programming Language Design, Import System, a little bit Web3."
+    "name": "Programming Languages",
+    "description": "In my current role, I primarily develop using C++ and Java. I supplement these with Python and SQL for data analysis tasks and also have professional experience with JavaScript and TypeScript."
+  }, {
+    "name": "Ongoing Stuides",
+    "description": "Virtual thread, PLDI, LLM-hype",
   }, {
     "name": "Past Studies",
-    "description": "Type theory, PEG, absl::flat_hash_map, Python Dict & Hash, and Python VM."
+    "description": "Python VM and bytecode, Type theory, Haskell community, PEG, absl::flat_hash_map, Python Dict & Hash, Build system, SDLC, Web3"
   }, {
-    "name": "Recommended Tech Podcasts",
-    "description": "[PyCast (mandarin only)](https://pycast.firstory.io/), [core.py](https://podcasts.apple.com/us/podcast/core-py/id1712665877), [Python Bytes](https://pythonbytes.fm/), [The Python Podcast.__init__](https://www.pythonpodcast.com/), [CppCast](https://cppcast.com/), [Acquired](https://www.acquired.fm/)."
+    "name": "Hobbies",
+    "description": "🍷🍶🍺🧗🏂🏊‍♂️🚴‍♂️🏃⛸️🧑‍🌾🍇🎹"
   }
 ]
-

@@ -1,6 +1,15 @@
-import { RowType } from "./ItemTable"
+export interface ToyItem {
+  year: string,
+  reason: string,
+  title: string,
+  links: Array<{
+    source: string,
+    url: string
+  }>,
+  tags?: Array<string>
+}
 
-export const ToyItems: Array<RowType> = [
+export const ToyItems: Array<ToyItem> = [
   {
     "year": "2024",
     "reason": "🤓 PEP 729",
@@ -119,7 +128,7 @@ export const ToyItems: Array<RowType> = [
       "source": "Github",
       "url": "https://github.com/note35/starbucks_captive_portal_checker",
     }, {
-      "source": "SlideShare",
+      "source": "Slide",
       "url": "https://github.com/capport-wg/wg-materials/blob/master/ietf100/hackathon_capport-quick-checker.pdf",
     }],
     "tags": [
@@ -185,7 +194,7 @@ export const ToyItems: Array<RowType> = [
     "reason": "Security Research",
     "title": "Demo of paper: Software fault localization using DStar (D*)",
     "links": [{
-      "source": "SlideShare",
+      "source": "Slide",
       "url": "https://people.cs.nctu.edu.tw/~wschou/d3js/dataset/loadjson.html"
     }],
     "tags": [

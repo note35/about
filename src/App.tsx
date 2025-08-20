@@ -1,54 +1,57 @@
-/* eslint react/no-children-prop: 0 */
-import React from "react"
-import { Routes, Route } from "react-router-dom"
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { About } from './About'
+import { Resume } from './Resume'
+import { Talks } from './Talks'
+import { Toys } from './Toys'
+import { Blog } from './Blog'
+import { Navigator } from './Navigator'
+import { Footer } from './Footer'
+import { ThemeProvider } from './contexts/ThemeContext'
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-import Typography from "@material-ui/core/Typography"
+// Hack 404.html to redirect to the url's path.
+function RedirectHandler() {
+  const navigate = useNavigate();
 
-import "./App.css"
-import { MyBox } from "./MyBox"  // not used in production
-import { Navigator } from "./Navigator"
-import { About } from "./About"
-import { Talks } from "./Talks"
-import { Toys } from "./Toys"
-import { MD2Html } from "./Utils"
-
-export function App(): JSX.Element {
-  const theme = createMuiTheme({
-    typography: {
-      body2: {
-        fontSize: 16,
-        paddingLeft: 3,
-        paddingRight: 3,
-        "@media (min-width:1024px)": {
-          fontSize: 18,
-          paddingLeft: 30,
-          paddingRight: 30,
-        }
-      }
+  useEffect(() => {
+    const redirectPath = sessionStorage.getItem('redirect');
+    if (redirectPath) {
+      sessionStorage.removeItem('redirect');
+      const repoName = '/' + redirectPath.split('/')[1];
+      const targetPath = redirectPath.replace(repoName, '');
+      navigate(targetPath || '/', { replace: true });
     }
-  })
+  }, [navigate]);
 
-  const footer = [
-    "© Kir 2025 (Last updated: 2025 July 16th)",
-    "The [site](https://github.com/note35/about) is made by [TypeScript](https://www.typescriptlang.org/), [React (CRA)](https://reactjs.org/docs/create-a-new-react-app.html), [Material UI](https://material-ui.com/), and hosted by [Github](https://github.com/)"
-  ]
+  return null; // This component renders nothing
+}
+
+function App() {
+  const basename = import.meta.env.DEV ? '/' : '/about';
 
   return (
-    <div className="App">
-      <ThemeProvider theme={theme}>
-        <Navigator />
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/talks" element={<Talks />} />
-          <Route path="/toys" element={<Toys />} />
-          <Route path="/:color" element={<MyBox prefix="test"/>} />
-          <Route element={<div>home</div>} />
-        </Routes>
-        <Typography variant="body2" component="h2" style={{ color: "grey", paddingTop: 30 }}>
-          {footer.map((item, idx) => <div key={idx}>{MD2Html(item)}</div>)}
-        </Typography>    
-      </ThemeProvider>
-    </div>
+    <ThemeProvider>
+      <Router basename={basename}>
+        <RedirectHandler />
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
+          <Navigator />
+          <main className="container mx-auto px-4 py-8 max-w-6xl">
+            <Routes>
+              <Route path="/" element={<About />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/talks" element={<Talks />} />
+              <Route path="/toys" element={<Toys />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:slug" element={<Blog />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </ThemeProvider>
   )
 }
+
+export default App

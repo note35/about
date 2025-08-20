@@ -1,0 +1,9 @@
+{
+  "origins": [
+    "https://note35.github.io/about"
+  ],
+  "originsRegex": [
+    "http://localhost:[0-9]+"
+  ],
+  "defaultCommentOrder": "newest"
+}

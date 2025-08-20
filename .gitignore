@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Vim
+*.swp
+*.swm
+*.swo
+*.swp
+
+# Generated js/ts files
+src/generated/*

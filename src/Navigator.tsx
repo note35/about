@@ -1,105 +1,106 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import { NavLink } from 'react-router-dom'
+import { Menu, X, Sun, Moon } from 'lucide-react'
+import { useState } from 'react'
+import { useTheme } from './contexts/ThemeContext'
 
-import { makeStyles } from "@material-ui/core/styles"
-import AppBar from "@material-ui/core/AppBar"
-import Toolbar from "@material-ui/core/Toolbar"
-import IconButton from "@material-ui/core/IconButton"
-import Badge from "@material-ui/core/Badge"
-import MenuItem from "@material-ui/core/MenuItem"
-import Menu from "@material-ui/core/Menu"
-import MenuIcon from "@material-ui/icons/Menu"
+const navigation = [
+  { name: 'About', href: '/' },
+  { name: 'Resume', href: '/resume' },
+  { name: 'Talks', href: '/talks' },
+  { name: 'Toys', href: '/toys' },
+  { name: 'Blog', href: '/blog' },
+]
 
-import "./Navigator.css"
-import { MenuItems } from "./MenuItems"
-
-const useStyles = makeStyles(theme => ({
-  grow: {
-    flexGrow: 1,
-  },
-  sectionDesktop: {
-    display: "none",
-    [theme.breakpoints.up("md")]: {
-      display: "flex",
-    },
-  },
-  sectionMobile: {
-    display: "flex",
-    [theme.breakpoints.up("md")]: {
-      display: "none",
-    },
-  },
-}))
-
-export function Navigator(): JSX.Element {
-  const classes = useStyles()
-  const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null)
-  const isMobileMenuOpen = Boolean(mobileMoreAnchorEl)
-  const mobileMenuId = "navigator-mobile"
-
-  const handleMobileMenuClose = () => { setMobileMoreAnchorEl(null) }
-
-  const handleMobileMenuOpen = (event: any) => { setMobileMoreAnchorEl(event.currentTarget) }
+export function Navigator() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const { theme, toggleTheme } = useTheme()
 
   return (
-    <div className={classes.grow}>
-      <AppBar position="static">
-        <Toolbar>
-          <div className={classes.grow} />
-
-          <div className={classes.sectionDesktop}>
-            { MenuItems.map(item => {
-              return (
-                <Link key={item.name} className="disable-default" to={item.path}>
-                  <IconButton aria-label={item.name} color="inherit">
-                    <Badge color="secondary">
-                      {item.icon}
-                    </Badge>
-                  </IconButton>
-                  {item.text}
-                </Link>
-              )
-            })}
-          </div>
-
-          <div className={classes.sectionMobile}>
-            <IconButton
-              aria-label="show more"
-              aria-controls={mobileMenuId}
-              aria-haspopup="true"
-              onClick={handleMobileMenuOpen}
-              color="inherit"
+    <nav className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 transition-colors">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="flex justify-between h-16">
+          <div className="flex items-center">
+            <NavLink 
+              to="/" 
+              className="text-xl font-bold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
             >
-              <MenuIcon />
-            </IconButton>
+              Kir Chou
+            </NavLink>
           </div>
-        </Toolbar>
-      </AppBar>
+          
+          {/* Desktop navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            {navigation.map((item) => (
+              <NavLink
+                key={item.name}
+                to={item.href}
+                className={({ isActive }) =>
+                  `px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                    isActive
+                      ? 'text-primary-600 bg-primary-50 dark:bg-primary-900 dark:text-primary-400'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-gray-800'
+                  }`
+                }
+              >
+                {item.name}
+              </NavLink>
+            ))}
+            
+            {/* Theme toggle button */}
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
+          </div>
 
-      <Menu
-        anchorEl={mobileMoreAnchorEl}
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
-        id={mobileMenuId}
-        keepMounted
-        transformOrigin={{ vertical: "top", horizontal: "right" }}
-        open={isMobileMenuOpen}
-        onClose={handleMobileMenuClose}
-      >
-        { MenuItems.map(item => {
-          return (
-            <MenuItem key={item.name}>
-              <Link className="disable-default" to={item.path}>
-                <IconButton aria-label={item.name} color="inherit">
-                  <Badge color="secondary">
-                    {item.icon}
-                  </Badge>
-                </IconButton>
-                {item.text}
-              </Link>
-            </MenuItem>
-          )
-        })}
-      </Menu>
-    </div>
+          {/* Mobile menu button and theme toggle */}
+          <div className="md:hidden flex items-center space-x-2">
+            {/* Theme toggle button for mobile */}
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
+            
+            <button
+              type="button"
+              className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 p-2"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile navigation */}
+        {mobileMenuOpen && (
+          <div className="md:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1 border-t border-gray-200 dark:border-gray-700">
+              {navigation.map((item) => (
+                <NavLink
+                  key={item.name}
+                  to={item.href}
+                  className={({ isActive }) =>
+                    `block px-3 py-2 rounded-md text-base font-medium transition-colors ${
+                      isActive
+                        ? 'text-primary-600 bg-primary-50 dark:bg-primary-900 dark:text-primary-400'
+                        : 'text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-gray-800'
+                    }`
+                  }
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.name}
+                </NavLink>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
   )
 }
