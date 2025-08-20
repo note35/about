@@ -201,7 +201,7 @@ This talk introduced [fairlearn.org](http://fairlearn.org), an open-source toolk
 
 Key Insight: While my employer maintains internal initiatives like [Fairness Indicators for scalable fair ML systems](https://research.google/blog/fairness-indicators-scalable-infrastructure-for-fair-ml-systems/), the Fairlearn toolkit offers a complementary external perspective on practical approaches to AI fairness. Evaluating such open-source tools can inform our understanding of community best practices and potential strategies for enhancing our internal fairness assessment and mitigation efforts.
 
-Reference: [Talk](https://ep2025.europython.eu/session/fairlearn-practical-approach-to-assessing-and-mitigating-harm-in-ai-systems), [Slide](https://pitch.com/v/short-fairlearn-intro-u25bfc), 
+Reference: [Talk](https://ep2025.europython.eu/session/fairlearn-practical-approach-to-assessing-and-mitigating-harm-in-ai-systems), [Slide](https://pitch.com/v/short-fairlearn-intro-u25bfc)
 
 ### Talk: Is Prompt Engineering Dead? How Auto-Optimization is Changing the Game
 
