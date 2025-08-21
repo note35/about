@@ -148,9 +148,9 @@ Error generating stack: `+b.message+`
 
 **Miscellaneous:**
 
-- Hosted 3 interns.
-- Increased place answers by 25% by implementing location-based notifications on Android within a 2% iCVR goal. This data is integral for the development and refinement of AI-driven strategic initiatives. (Java, SQL)
+- Increased place answers by 25% by implementing location-based notifications on Android within a 2% iCVR goal. This data is integral for the development and refinement of AI-driven strategic initiatives.
 - Contributed to PyType, PyCLIF, and CPython, and presented at Python conferences.
+- Hosted 3 interns.
     `,languages:["C++","Java","Python","SQL","TypeScript","Apache Beam"]},{duration:"2017-07 - 2021-02",employer:"Amazon Product Search",job_title:"Software Engineer (IC/TL)",job_description:`
 - Led automation projects for metadata management: 1) Significantly accelerated client experimentation and AI feature deployment. A/B testing time was cut from 50 to 10 days, accelerating AI innovation time-to-market. 2) Saving 10% annual costs for 2 years to free up resources for investment in AI projects.
 - Led a client information management system project, improving onboarding and data collection, and enabling AI solution integration. Reduced onboarding time and increased client satisfaction.
