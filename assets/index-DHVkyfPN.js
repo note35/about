@@ -146,7 +146,7 @@ Error generating stack: `+b.message+`
 - Improved media uploading reliability by identifying opportunities and developing a cross-platform end-to-end user metrics reliability dashboard.
 - Developed media upload service with new reliability enhancement feature.
 
-**Miscs**
+**Miscellaneous:**
 
 - Hosted 3 interns.
 - Increased place answers by 25% by implementing location-based notifications on Android within a 2% iCVR goal. This data is integral for the development and refinement of AI-driven strategic initiatives. (Java, SQL)
