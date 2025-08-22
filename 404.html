@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kir Chou</title>
     <script type="text/javascript">
-      sessionStorage.redirect = location.pathname;
+      <!-- Also keeps search (OAuth tokens params) -->
+      sessionStorage.redirect = location.pathname + location.search;
       location.href = '/' + location.pathname.split('/')[1];
     </script>
   </head>
