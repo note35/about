@@ -12,7 +12,7 @@ export interface TalkItem {
 
 export const TalkItems: Array<TalkItem> = [
   {
-    "year": "Upcoming!",
+    "year": "2025",
     "reason": "PyCon TW",
     "title": "Panel Discussion: \"Coexisting with AI: Will Experts Adapt or Lead?\"",
     "excerpt": "I am the moderator of this panel discussion, the panelists are Donghee Na, Sebastián Ramírez (tiangolo), Tica Lin, and YC Chen.",
