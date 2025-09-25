@@ -332,7 +332,7 @@ Instead, the questions were laser-focused on their domains:
 This targeted approach is the key to a valuable panel. It respects the experts' time and ensures the audience leaves with credible, insightful answers.
 
 
-## 🌟 Step 5 (bonus)- The Speaker Night Experiment: Testing Chemistry Before the Big Day
+## 🌟 Step 4 (bonus)- The Speaker Night Experiment: Testing Chemistry Before the Big Day
 
 My goal was bigger than just one panel. I wanted the "Coexisting with AI" theme to permeate the entire conference. Inspired by the [Teaching Python Podcast's open-space](https://www.teachingpython.fm/148) format, I pitched a wild idea to Justin: what if we turned a corner of our Speaker Night dinner into a pop-up recording studio?
 
@@ -351,7 +351,7 @@ This data was my final confidence boost. It proved that our panel's proactive, o
 This whole process also revealed how breathtakingly fast the landscape is changing. In early 2025, "using AI" meant drafting emails. Today, engineers are deep into "vibe coding," treating AI as a genuine collaborator. It’s becoming our unlimited intern, which is precisely why we need events like PyCon to come together and figure out what it all means.
 
 
-## 🚀 Step 6 – Orchestrating the Event: Final Logistics & Surprise Moments
+## 🚀 Step 5 – Orchestrating the Event: Final Logistics & Surprise Moments
 
 With the content and panelists locked in, my focus shifted to the final logistics. It’s easy to dismiss these as "minor details," but the when, where, and how of a panel can completely change its energy. Believe me, nothing was trivial.
 
@@ -404,14 +404,14 @@ It brings me back to a point I made in a lightning talk in the Python Tokyo meet
 | **Jun 2025** | **📤📩 Panelist outreach** – Confirmed all keynote speakers in panel. | Step 2 |
 | **Jul 2025** | **🧠 EuroPython 2025** – Sharpened my research and listening at the conference. | Step 3 |
 | **Jul 2025** | **✅ Topic finalization** – Settled on the provocative “Coexisting with AI” angle. | Step 1 |
-| **Aug 2025** | **🧠 Speaker‑night recording brainstorm** – Planned the pop‑up studio. | Step 5 |
+| **Aug 2025** | **🧠 Speaker‑night recording brainstorm** – Planned the pop‑up studio. | Step 4 |
 | **Aug 2025** | **✅ Agenda finalized** – Locked final questions and time slots. | Step 1 |
 | **Aug 2025** | **🤯 Imposter syndrome resolved** - Built confidence through prep | Steps 0 & 3 |
-| **Aug 2025** | **🧠 Speaker‑night recording preparation** – Set up sofas, microphones, and platforms | Step 5 |
-| **Aug 2025** | **✅ Conference schedule locked** – Confirmed program dates & times. | Step 6 |
-| **Sep 2025** | **💪 Stage arrangement** – Confirmed physical set‑up of sofas, microphones, and platforms. | Step 6 |
-| **Sep 2025** | **🎤 Speaker‑night recording** – Captured 25 live interviews. | Step 5 |
-| **Sep 2025** | **🎤 Panel discussion** – Moderated the final 60‑minute session. | Step 6 |`,title:"I Moderated My First Panel Discussion – Behind the Scenes at PyCon TW 2025",excerpt:"60 minutes on stage. 12 months of planning. Discover the strategy, research, and logistics behind my first time moderating a main stage panel at PyCon TW 2025.",date:"2025-09-24",author:"Kir Chou",tags:["ai","pycon"],readTime:"17 min read"},{slug:"20250821-website-revamp",content:`# Context
+| **Aug 2025** | **🧠 Speaker‑night recording preparation** – Set up sofas, microphones, and platforms | Step 4 |
+| **Aug 2025** | **✅ Conference schedule locked** – Confirmed program dates & times. | Step 5 |
+| **Sep 2025** | **💪 Stage arrangement** – Confirmed physical set‑up of sofas, microphones, and platforms. | Step 5 |
+| **Sep 2025** | **🎤 Speaker‑night recording** – Captured 25 live interviews. | Step 4 |
+| **Sep 2025** | **🎤 Panel discussion** – Moderated the final 60‑minute session. | Step 5 |`,title:"I Moderated My First Panel Discussion – Behind the Scenes at PyCon TW 2025",excerpt:"60 minutes on stage. 12 months of planning. Discover the strategy, research, and logistics behind my first time moderating a main stage panel at PyCon TW 2025.",date:"2025-09-24",author:"Kir Chou",tags:["ai","pycon"],readTime:"17 min read"},{slug:"20250821-website-revamp",content:`# Context
 
 In 2020, during an employment gap, I developed my personal website as a Single Page Application (SPA) using Create React App (CRA) and Material UI v4, following a [Zhihu guide](https://zhuanlan.zhihu.com/p/102642360).
 
