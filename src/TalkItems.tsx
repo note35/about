@@ -29,6 +29,9 @@ export const TalkItems: Array<TalkItem> = [
     "title": "Beyond the Code: Manipulating Bytecode and Building Community",
     "excerpt": "Explore Python bytecode's evolution, its impact on tools like pytype through PEP 709, and the vital role of OSS collaboration in shaping Python's future.",
     "links": [{
+      "source": "Youtube",
+      "url": "https://www.youtube.com/watch?v=Y0SXvtRbEjg"
+    }, {
       "source": "Slide",
       "url": "https://github.com/note35/about/blob/dev/public/slides/2025-bytecode.pdf"
     }],
