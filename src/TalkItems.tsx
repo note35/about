@@ -33,7 +33,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=Y0SXvtRbEjg"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2025-bytecode.pdf"
+      "url": "https://speakerdeck.com/note35/beyond-the-code-manipulating-bytecode-and-building-community"
     }],
     "tags": [
       "pep709",
@@ -48,7 +48,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=rQur7QphEIw"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2024-type_systems.pdf"
+      "url": "https://speakerdeck.com/note35/demystify-python-types-for-pep-729"
     }],
     "tags": [
       "pep729",
@@ -63,7 +63,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=ecUVZMFEdQU"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2023-apache_beam.pdf"
+      "url": "https://speakerdeck.com/note35/how-to-design-a-successful-intern-project-with-apache-beam"
     }, {
       "source": "Code",
       "url": "https://colab.research.google.com/drive/1KT-0pNQbvxjNoLa1me_09uvQSDDwVz0q?usp=sharing"
@@ -79,7 +79,7 @@ export const TalkItems: Array<TalkItem> = [
     "excerpt": "This is a summary of my experiences from 3 internships and from hosting 5 interns.",
     "links": [{
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2023-intern_host.pdf"
+      "url": "https://speakerdeck.com/note35/what-a-great-software-engineer-intern-host-looks-like"
     }],
     "tags": [
       "career",
@@ -94,7 +94,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=vhwWcPzvRvk"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2022-type_erasure.pdf"
+      "url": "https://speakerdeck.com/note35/type-erasure-in-python"
     }],
     "tags": [
       "cpython",
@@ -109,7 +109,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=rlULA4PthKw"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2021-PEG.pdf"
+      "url": "https://speakerdeck.com/note35/learn-from-ll-1-to-peg-parser-the-hard-way"
     }],
     "tags": [
       "pep617"
@@ -124,7 +124,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=TvFwG2VkpFU"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2020-packaging.pdf"
+      "url": "https://speakerdeck.com/note35/time-travel-lets-learn-from-the-history-of-python-packaging"
     }],
     "tags": [
       "pep241", "pep314", "pep345", "pep566",
@@ -139,7 +139,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=M5CGocevX9Q"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2019-str_bytes.pdf"
+      "url": "https://speakerdeck.com/note35/bytes-nightmare-before-python2-eol"
     }],
     "tags": [
       "2to3"
@@ -154,7 +154,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=BS-HyV3V7GI"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2019-python3migration.pdf"
+      "url": "https://speakerdeck.com/note35/supportingpython3-in-large-scale-project"
     }, {
       "source": "Github",
       "url": "https://github.com/note35/SupportingPython3-notes"
@@ -169,7 +169,7 @@ export const TalkItems: Array<TalkItem> = [
     "excerpt": "What's it like for a Python enthusiast in a giant company that doesn't use Python in its core services? This talk shares the journey, from real-world technical demands to hiring standards.",
     "links": [{
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2018-work.pdf"
+      "url": "https://speakerdeck.com/note35/a-python-engineer-under-giant-umbrella"
     }],
     "tags": [
       "career"
@@ -181,7 +181,7 @@ export const TalkItems: Array<TalkItem> = [
     "excerpt": "This slide briefly introduces the types of problems from the Capture the Flag (CTF) competitions I participated in during my master's program.",
     "links": [{
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2017-ctf_cgc.pdf"
+      "url": "https://speakerdeck.com/note35/introduction-of-ctf-and-cgc"
     }],
     "tags": [
       "security"
@@ -208,7 +208,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://www.youtube.com/watch?v=5kvgbdC7Bdk",
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2017-sinon.pdf"
+      "url": "https://speakerdeck.com/note35/the-story-of-sinon-dot-py"
     }, {
       "source": "Github",
       "url": "https://github.com/note35/sinon"
@@ -226,7 +226,7 @@ export const TalkItems: Array<TalkItem> = [
       "url": "https://youtu.be/bKJtygkpJMs"
     }, {
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2015-master_research.pdf"
+      "url": "https://speakerdeck.com/note35/using-code-coverage-as-a-triage-method"
     }],
     "tags": [
       "security"
@@ -238,7 +238,7 @@ export const TalkItems: Array<TalkItem> = [
     "title": "GCC",
     "links": [{
       "source": "Slide",
-      "url": "https://github.com/note35/about/blob/dev/public/slides/2014-GCC.pdf"
+      "url": "https://speakerdeck.com/note35/gcc"
     }],
     "tags": [
       "compiler"
