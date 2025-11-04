@@ -17,6 +17,9 @@ export const TalkItems: Array<TalkItem> = [
     "title": "Panel Discussion: \"Coexisting with AI: Will Experts Adapt or Lead?\"",
     "excerpt": "I am the moderator of this panel discussion, the panelists are Donghee Na, Sebastián Ramírez (tiangolo), Tica Lin, and YC Chen.",
     "links": [{
+      "source": "Youtube",
+      "url": "https://www.youtube.com/watch?v=NGabvfCPmDY"
+    }, {
       "source": "Link",
       "url": "https://tw.pycon.org/2025/en-us/conference/panel-discussion"
     }],

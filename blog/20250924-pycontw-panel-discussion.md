@@ -32,7 +32,7 @@ The decision was made on a snowy slope. While shredding the backcountry with Jus
 - **Which voices will bring that topic to life?** Selecting the right panelists was only the first step; I also had to design a pre‑discussion plan so that the on‑stage conversation would feel cohesive, not like a series of disconnected Q&A snippets.
 - **How do I orchestrate the logistics?** From staging an experimental recording session during the pre‑conference speaker night to coordinating the final schedule and stage layout, every detail had to fit together like a well‑tuned instrument.
 
-With those questions in hand, the road from idea to execution became a clear, if challenging, path.
+With those questions in hand, the road from idea to execution became a clear path.
 
 ## 🧭 Step 0 – The Moderator’s Playbook
 
