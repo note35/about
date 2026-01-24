@@ -11,6 +11,21 @@ export interface ToyItem {
 
 export const ToyItems: Array<ToyItem> = [
   {
+    "year": "2025/2026",
+    "reason": "🤓",
+    "title": "lamdef",
+    "links": [{
+      "source": "Github",
+      "url": "https://github.com/note35/lamdef"
+    }, {
+      "source": "Slide",
+      "url": "https://discuss.python.org/t/typed-anonymous-functions-lamdef/105217"
+    }],
+    "tags": [
+      "python", "cpython",
+    ]
+  },
+  {
     "year": "2024",
     "reason": "🤓 PEP 729",
     "title": "Python type systems comparison + A mini type checker",

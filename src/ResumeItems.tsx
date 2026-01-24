@@ -12,13 +12,19 @@ export const ResumeItems: Array<ResumeItem> = [
     "employer": "Google Maps",
     "job_title": "Software Engineer (TL)",
     "job_description": `
-**TL for the i18n and l10n UGC consumption UX**:
+*Completed Projects*
+
+**TL – 1st Backend Tier for Google Reviews Offline Consumption** (2025-):
+
+- Backend owner of the offline‑consumption stack. Revamped the entire stack, delivering a cross‑team aligned architecture that reduces latency and ownership complexity and enhances extensibility.
+
+**TL – i18n & l10n UGC Consumption UX** (2022-):
 
 - Led data-driven initiatives to enhance the review consumption UX across human languages, leveraging counterfactual logging enabled experiments to inform AI-powered strategies. 1) Introduced an AI-powered multilingual ranking algorithm for review consumption UX. 2) Standardized the UI across platforms with user metrics to optimize AI-driven content delivery. 3) Expanded i18n coverage for the AI-generated topic summarization.
 - Built TB-level data pipelines, cutting storage costs by 32% and processing time by 80% on billions of user generated contents. 
 - Improved translation reliability (K-level QPS) from 95% to 99.9% using a hybrid approach, ensuring data availability for AI initiatives.
 
-**TL for the media upload reliability**:
+**TL - Media Upload Reliability** (2024-2025):
 
 - Improved media uploading reliability by identifying opportunities and developing a cross-platform end-to-end user metrics reliability dashboard.
 - Developed media upload service with new reliability enhancement feature.
@@ -26,10 +32,10 @@ export const ResumeItems: Array<ResumeItem> = [
 **Miscellaneous:**
 
 - Increased place answers by 25% by implementing location-based notifications on Android within a 2% iCVR goal. This data is integral for the development and refinement of AI-driven strategic initiatives.
-- Contributed to PyType, PyCLIF, and CPython, and presented at Python conferences.
-- Hosted 3 interns.
+- Contributed to PyType, PyCLIF, and CPython, and presented at Python conferences. (2022-2024)
+- Hosted 3 interns (2022, 2023, 2024).
     `,
-    "languages": ["C++", "Java", "Python", "SQL", "TypeScript", "Apache Beam"]
+    "languages": ["C++", "Java", "Python", "Colab / SQL", "TypeScript", "Apache Beam", "End‑to‑End Product Experience", "Cross‑functional Team Leadership", "Multi‑Quarter Strategic Planning"]
   }, {
     "duration": "2017-07 - 2021-02",
     "employer": "Amazon Product Search",
@@ -41,7 +47,7 @@ export const ResumeItems: Array<ResumeItem> = [
 - Led Python 3 migration project, enabling adoption of modern AI tools and workflows, shared to PyCon JP.
 - Hosted 2 interns.
     `,
-    "languages": ["Flask", "React", "Plotly", "JamStack", "Serverless", "AWS"]
+    "languages": ["Flask", "React", "Plotly", "JamStack", "Serverless", "AWS", "Cross‑team Enablement"]
   }, {
     "duration": "2016-03 - 2017-07",
     "employer": "IBM Security",
