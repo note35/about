@@ -12,6 +12,18 @@ export interface TalkItem {
 
 export const TalkItems: Array<TalkItem> = [
   {
+    "year": "2026",
+    "reason": "Tokyo Python Meetup",
+    "title": "Monty",
+    "excerpt": "A 5 minutes lighting talk about Pydantic Monty.",
+    "links": [{
+      "source": "Slide",
+      "url": "https://speakerdeck.com/note35/monty"
+    }],
+    "tags": [
+      "pydantic-monty",
+    ]
+  }, {
     "year": "2025",
     "reason": "PyCon TW",
     "title": "Panel Discussion: \"Coexisting with AI: Will Experts Adapt or Lead?\"",
