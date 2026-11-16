@@ -40,6 +40,6 @@ export const AboutItems = [
     "description": "🍷🍶🍺🎹🧑‍🌾🍇🧗🏂🏊‍♂️🚴‍♂️🏃⛸️"
   }, {
     "name": "Music 🎵",
-    "description": "I wish I can be a musician one day so I am actively working on it now, you can find my Jazz piano practice in <a href='https://www.instagram.com/kir_piano_practice/' target='_blank' rel='noopener noreferrer'>IG: kir_piano_practice</a>."
+    "description": "I wish I can be a musician one day so I am actively working on it now, you can find my Jazz piano practice in <a href='https://www.instagram.com/kir_music_practice/' target='_blank' rel='noopener noreferrer'>IG: kir_music_practice</a>."
   }
 ]

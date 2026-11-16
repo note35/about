@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "blog": "node ./scripts/build-blog.ts",
+    "blog": "tsx ./scripts/build-blog.ts",
     "dev": "vite",
     "build": "npm run blog && tsc && vite build",
     "preview": "vite preview",
@@ -40,8 +40,17 @@
     "gh-pages": "^6.1.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
+    "tsx": "^4.20.3",
     "typescript": "^5.2.2",
     "vite": "^7.1.3",
-    "vite-plugin-prerender": "^1.0.8"
+    "vite-plugin-prerender": "npm:vite-plugin-prerender-esm-fix@^1.0.8"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "puppeteer@24.12.0": true,
+    "puppeteer@1.20.0": true
+  },
+  "overrides": {
+    "flatted": "3.4.2"
   }
 }
